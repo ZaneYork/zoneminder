@@ -163,7 +163,6 @@ function getBodyTopHTML() {
 <noscript>
 <div style="background-color:red;color:white;font-size:x-large;">
 '. validHtmlStr(ZM_WEB_TITLE) .' requires Javascript. Please enable Javascript in your browser for this site.
-
 </div>
 </noscript>
 ';
@@ -904,6 +903,12 @@ function xhtmlFooter() {
   <link href="skins/<?php echo $skin ?>/js/video-js.css" rel="stylesheet">
   <link href="skins/<?php echo $skin ?>/js/video-js-skin.css" rel="stylesheet">
   <script src="skins/<?php echo $skin ?>/js/video.js"></script>
+  <link href="skins/<?php echo $skin ?>/js/player-view/button.css" rel="stylesheet">
+  <link href="skins/<?php echo $skin ?>/js/player-view/index.css" rel="stylesheet">
+  <link href="skins/<?php echo $skin ?>/js/player-view/progress.css" rel="stylesheet">
+  <script src="skins/<?php echo $skin ?>/js/missile.js"></script>
+  <script src="skins/<?php echo $skin ?>/js/h265webjs-v20220302.js"></script>
+  <script src="skins/<?php echo $skin ?>/js/player.js"></script>
   <script src="./js/videojs.zoomrotate.js"></script>
 <?php
   }
